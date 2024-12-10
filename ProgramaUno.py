@@ -1,0 +1,5 @@
+edad = int(input("Introduce tu edad: "))
+nombre = input("Introduce tu nombre: ")
+print( "Te llamas " + nombre + " y tienes " + str(edad) + " años")
+print(type(edad))
+print(type(nombre))
