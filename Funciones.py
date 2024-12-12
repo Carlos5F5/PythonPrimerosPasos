@@ -19,3 +19,16 @@ def velocidad(peso):
         print("eres rapido")
 
 velocidad(79)
+
+def altura(estatura):
+    if estatura >= 1.80:
+        print("Eres alto")
+    elif estatura >1.60 <= 1.75:
+        print("tu estarura es promedio")
+    else:
+        print("eres pequeño")
+        altura(1.80)
+
+
+
+
