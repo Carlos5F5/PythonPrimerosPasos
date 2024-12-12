@@ -11,3 +11,11 @@ def fuerza(peso):
 g = 9.81
 fuerza(69)
 print(g)
+
+def velocidad(peso):
+    if peso >= 80:
+        print("eres lento")
+    else:
+        print("eres rapido")
+
+velocidad(81)
