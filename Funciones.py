@@ -18,4 +18,4 @@ def velocidad(peso):
     else:
         print("eres rapido")
 
-velocidad(81)
+velocidad(79)
